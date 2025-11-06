@@ -25,23 +25,23 @@
 ## 🖼️ Dashboard Screenshots
 
 ### Race Overview
-![Race Overview](images/RaceOverview.png)
+![Race Overview](Images/RaceOverview.png)
 *Summary statistics, race story, and top finishers*
 
 ### Position Evolution
-![Position Evolution](images/PositionEval.png)
+![Position Evolution](Images/PositionEval.png)
 *Interactive position tracking over time with multi-driver selection*
 
 ### Sector Analysis
-![Sector Analysis](images/SectorAnalysis.png)
+![Sector Analysis](Images/SectorAnalysis.png)
 *Radar charts comparing sector performance across drivers*
 
 ### Driver Stories
-![Driver Stories](images/DriverStories.png)
+![Driver Stories](Images/DriverStories.png)
 *Individual driver narratives with detailed statistics*
 
 ### Key Moments
-![Key Moments](images/keyMoments.png)
+![Key Moments](Images/keyMoments.png)
 *Turning points and significant race events*
 
 ## 🛠️ Tech Stack
@@ -61,32 +61,6 @@
 - **Data deduplication** - Handling duplicate lap records
 - **Timezone conversion** - UTC/local time synchronization
 
-## 📁 Project Structure
-
-```
-Toyota/
-├── COTA_Race_Story_Analysis.ipynb    # Complete analysis notebook
-├── race_story_dashboard.py            # Streamlit dashboard application
-├── export_dashboard_data.py          # Data export utility
-├── requirements_dashboard.txt         # Python dependencies
-├── README.md                          # This file
-├── README_DASHBOARD.md                # Dashboard setup guide
-├── Ideas.md                           # Project brainstorming notes
-├── dashboard_data/                   # Exported data files
-│   ├── viz_position.csv
-│   ├── viz_sectors.csv
-│   ├── driver_comparison.csv
-│   ├── key_moments.csv
-│   ├── story_texts.csv
-│   └── dashboard_summary.json
-└── circuit-of-the-americas/           # Race data
-    └── COTA/
-        └── Race 1/
-            ├── 00_Results GR Cup Race 1 Official_Anonymized.CSV
-            ├── 23_AnalysisEnduranceWithSections_Race 1_Anonymized.CSV
-            ├── 26_Weather_Race 1_Anonymized.CSV
-            └── ...
-```
 
 ## 🚀 Getting Started
 
@@ -113,7 +87,7 @@ Toyota/
    - Execute all cells to generate analysis and insights
    - Run the export cell (Cell 106) to create dashboard data files
 
-4. **Launch the dashboard**
+**Launch the dashboard**
    ```bash
    streamlit run race_story_dashboard.py
    ```
@@ -144,13 +118,6 @@ The project follows a comprehensive 10-phase analysis approach:
 - **Complex Position Calculations**: Developed cumulative time-based position tracking algorithm
 - **Interactive Visualizations**: Created responsive charts with multi-driver selection
 
-### Skills Demonstrated
-
-- **Data Engineering**: ETL processes, data cleaning, time series analysis
-- **Statistical Analysis**: Correlation analysis, trend detection, outlier identification
-- **Data Visualization**: Interactive charts, narrative dashboards, storytelling
-- **Software Development**: Full-stack application, modular code, error handling
-- **Domain Knowledge**: Racing analytics, flag periods, sector analysis
 
 ## 📈 Project Impact
 
@@ -161,39 +128,5 @@ This project demonstrates the ability to:
 - Handle complex real-world data challenges
 - Complete an end-to-end data science project
 
-## 🏆 Hackathon Context
 
-Built for **Hack the Track presented by Toyota GR**, this project addresses the challenge of making racing data accessible and engaging. The dashboard helps:
-- **Teams**: Understand race dynamics and strategic decisions
-- **Fans**: Follow the race story in an intuitive way
-- **Drivers**: Analyze performance and identify improvement areas
-
-## 🔮 Future Enhancements
-
-- [ ] Multi-race comparison across different tracks
-- [ ] Predictive modeling for race outcomes
-- [ ] Real-time data integration for live race analysis
-- [ ] Machine learning for driver performance prediction
-- [ ] Advanced telemetry data integration
-- [ ] Mobile-responsive design improvements
-
-## 📝 License
-
-This project was created for the Hack the Track hackathon. Data provided by Toyota GR Cup.
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
-## 🙏 Acknowledgments
-
-- Toyota GR Cup for providing the racing data
-- Hack the Track hackathon organizers
-- Streamlit and Plotly communities for excellent documentation
-
----
-
-**⭐ If you find this project interesting, please give it a star!**
 
