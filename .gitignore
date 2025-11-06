@@ -1,0 +1,53 @@
+# Large data files (exceed GitHub's 100MB limit)
+**/R1_cota_telemetry_data.csv
+**/R2_cota_telemetry_data.csv
+**/*telemetry*.csv
+**/*telemetry*.CSV
+COTA/Data/R1_cota_telemetry_data.csv
+circuit-of-the-americas/COTA/Race*/R*_cota_telemetry_data.csv
+
+# Data directories with large files
+**/Data/
+**/circuit-of-the-americas/
+**/*.zip
+COTA/Data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Dashboard data (can be regenerated)
+dashboard_data/*.csv
+dashboard_data/*.json
+
+# Large PDF files
+*.pdf
+
+# Temporary files
+*.tmp
+*.log
+
